@@ -1,0 +1,9 @@
+---
+dist: trusty
+sudo: required
+language: ruby
+rvm: 1.9.3
+cache: bundler
+service:
+  - docker
+script: "bundle exec rake test"
